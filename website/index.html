@@ -3,257 +3,558 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anmol Acharya - Resume</title>
-    <meta name="description" content="Professional resume of Anmol Acharya - Computer Science student at University of Texas at Arlington">
+    <title>Anmol Acharya - Portfolio</title>
+    <meta name="description" content="Professional portfolio of Anmol Acharya - Computer Science student at University of Texas at Arlington">
     <link rel="stylesheet" href="styles.css">
     <link rel="icon" href="data:,">
   </head>
   <body>
-    <div class="container">
-        <!-- Header Section -->
-        <header class="header">
-            <div class="header-content">
-                <div class="content-section">
-                    <h1>Anmol Acharya</h1>
-                    <div class="contact-info">
-                        <p>(720)812-6205 | anmolacharya94@gmail.com</p>
-                        <p>
-                            <a href="https://linkedin.com/in/anmolacharyauta" target="_blank" rel="noopener noreferrer">linkedin.com/in/anmolacharyauta</a>
-                            |
-                            <a href="https://github.com/AnmolAcharya" target="_blank" rel="noopener noreferrer">github.com/AnmolAcharya</a>
-                        </p>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">AA</div>
+        <ul class="nav-menu">
+          <li><a href="#expertise">Education</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-background">
+        <div class="wave-shape"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-left">
+          <div class="social-icons">
+            <a href="https://linkedin.com/in/anmolacharyauta" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="https://github.com/AnmolAcharya" target="_blank" rel="noopener noreferrer" class="social-icon">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+            </a>
                     </div>
+          <h1 class="hero-name">Anmol Acharya</h1>
+          <p class="hero-title">Software & Cloud Engineer</p>
+          <a href="#contact" class="btn-resume">Connect With Me</a>
                 </div>
-                <div class="profile-photo-container">
+        <div class="hero-right">
+          <div class="profile-photo-wrapper">
                     <img src="public/mypics.png" alt="Anmol Acharya" class="profile-photo">
                 </div>
             </div>
-        </header>
+      </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="certifications-section">
+      <div class="section-container">
+        <h2 class="section-title">Certifications</h2>
+        <div class="certifications-grid">
+          <div class="cert-badge">
+            <img src="public/AWS_SAA_Badge.webp" alt="AWS Solutions Architect Associate" class="cert-image">
+            <div class="cert-label">AWS Solutions Architect Associate</div>
+          </div>
+          <div class="cert-badge">
+            <img src="public/AWSTrainingBadge.jpg" alt="AWS Essentials Training" class="cert-image">
+            <div class="cert-label">AWS Essentials Training</div>
+          </div>
+          <div class="cert-badge">
+            <img src="public/Cornell_Cert.jpg" alt="Cornell Tech Certificate" class="cert-image">
+            <div class="cert-label">Cornell Tech Certificate</div>
+          </div>
+          <div class="cert-badge">
+            <img src="public/UR2PHD_Badge (1).png" alt="UR2PHD Research Badge" class="cert-image">
+            <div class="cert-label">UR2PHD Research Badge</div>
+          </div>
+        </div>
+      </div>
+    </section>
 
         <!-- Education Section -->
-        <section class="education">
-            <h2>Education</h2>
-            <div class="education-item education-flex">
+    <section class="education-section" id="expertise">
+      <div class="section-container">
+        <h2 class="section-title">Education</h2>
+        <div class="education-card">
                 <div class="education-content">
                     <h3>University of Texas at Arlington</h3>
-                    <div class="date">May 2026</div>
-                    <p>Bachelor of Science in Computer Science</p>
-                    <div class="location">Arlington, Texas</div>
-                    <ul>
-                        <li>GPA: 3.92/4.00</li>
-                        <li>Relevant Coursework: Data Structures and Algorithms, Software Testing, Artificial Intelligence, Database Management, Object-Oriented Programming, Operating Systems, Computer Networks, Computer Graphics</li>
-                    </ul>
+            <div class="education-meta">
+              <span class="education-degree">Bachelor of Science in Computer Science</span>
+              <span class="education-date">Dec 2026</span>
                 </div>
-                <div class="education-logo-container">
-                    <img src="public/UTA.jpg" alt="UTA Logo" class="education-logo">
-                </div>
+            <div class="education-location">Arlington, Texas</div>
+            <div class="education-details">
+              <p><strong>GPA:</strong> 3.92/4.00</p>
+              <p><strong>Relevant Coursework:</strong> Data Structures and Algorithms, Software Testing, Artificial Intelligence, Database Management, Object-Oriented Programming, Operating Systems, Computer Networks, Computer Graphics</p>
+            </div>
+          </div>
+          <div class="education-logo">
+            <img src="public/UTA.jpg" alt="UTA Logo">
+          </div>
+        </div>
             </div>
         </section>
 
         <!-- Technical Skills Section -->
-        <section class="technical-skills">
-            <h2>Technical Skills</h2>
-            <div class="skills-container">
-                <div class="skill-category">
+    <section class="skills-section">
+      <div class="section-container">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-category-card">
                     <h3>Programming Languages</h3>
                     <div class="skill-icons">
-                        <img src="public/Python.png" alt="Python">
-                        <img src="public/JavaScript.png" alt="JavaScript">
-                        <img src="public/TypeScript.png" alt="TypeScript">
-                        <img src="public/Java.png" alt="Java">
-                        <!-- <img src="public/C++ (CPlusPlus).png" alt="C++"> -->
-                        <img src="public/csharp.png" alt="C#">
-                        <img src="public/HTML5.png" alt="HTML5">
-                        <img src="public/CSS3.png" alt="CSS3">
+              <img src="public/Python.png" alt="Python" title="Python">
+              <img src="public/JavaScript.png" alt="JavaScript" title="JavaScript">
+              <img src="public/TypeScript.png" alt="TypeScript" title="TypeScript">
+              <img src="public/Java.png" alt="Java" title="Java">
+              <img src="public/csharp.png" alt="C#" title="C#">
+              <img src="public/HTML5.png" alt="HTML5" title="HTML5">
+              <img src="public/CSS3.png" alt="CSS3" title="CSS3">
                     </div>
                 </div>
-                <div class="skill-category">
+          <div class="skill-category-card">
                     <h3>Full Stack</h3>
                     <div class="skill-icons">
-                        <img src="public/React.png" alt="React">
-                        <img src="public/Node.js.png" alt="Node.js">
-                        <img src="public/Express.png" alt="Express">
-                        <img src="public/FastAPI.png" alt="FastAPI">
-                        <img src="public/Flask.png" alt="Flask">
-                        <img src="public/Bootstrap.png" alt="Bootstrap">
-                        <img src="public/Tailwind CSS.png" alt="Tailwind CSS">
-                        <img src="public/Material UI.png" alt="Material UI">
-                        <img src="public/Redux.png" alt="Redux">
+              <img src="public/React.png" alt="React" title="React">
+              <img src="public/Node.js.png" alt="Node.js" title="Node.js">
+              <img src="public/Express.png" alt="Express" title="Express">
+              <img src="public/FastAPI.png" alt="FastAPI" title="FastAPI">
+              <img src="public/Flask.png" alt="Flask" title="Flask">
+              <img src="public/Bootstrap.png" alt="Bootstrap" title="Bootstrap">
+              <img src="public/Tailwind CSS.png" alt="Tailwind CSS" title="Tailwind CSS">
+              <img src="public/Material UI.png" alt="Material UI" title="Material UI">
+              <img src="public/Redux.png" alt="Redux" title="Redux">
                     </div>
                 </div>
-                <div class="skill-category">
+          <div class="skill-category-card">
                     <h3>Cloud & DevOps</h3>
                     <div class="skill-icons">
-                        <img src="public/AWS.png" alt="AWS">
-                        <img src="public/Docker.png" alt="Docker">
-                        <img src="public/Kubernetes.png" alt="Kubernetes">
-                        <img src="public/Git.png" alt="Git">
-                        <img src="public/GitHub.png" alt="GitHub">
-                        <img src="public/GitLab.png" alt="GitLab">
-                        <img src="public/GitHub Actions.png" alt="GitHub Actions">
-                        <img src="public/Jenkins.png" alt="Jenkins">
-                        <img src="public/NGINX.png" alt="NGINX">
+              <img src="public/AWS.png" alt="AWS" title="AWS">
+              <img src="public/Docker.png" alt="Docker" title="Docker">
+              <img src="public/Kubernetes.png" alt="Kubernetes" title="Kubernetes">
+              <img src="public/Git.png" alt="Git" title="Git">
+              <img src="public/GitHub.png" alt="GitHub" title="GitHub">
+              <img src="public/GitLab.png" alt="GitLab" title="GitLab">
+              <img src="public/GitHub Actions.png" alt="GitHub Actions" title="GitHub Actions">
+              <img src="public/Jenkins.png" alt="Jenkins" title="Jenkins">
+              <img src="public/NGINX.png" alt="NGINX" title="NGINX">
                     </div>
                 </div>
-                <div class="skill-category">
+          <div class="skill-category-card">
                     <h3>AI & ML</h3>
                     <div class="skill-icons">
-                        <img src="public/TensorFlow.png" alt="TensorFlow">
-                        <img src="public/PyTorch.png" alt="PyTorch">
-                        <img src="public/scikit-learn.png" alt="Scikit-learn">
-                        <img src="public/OpenCV.png" alt="OpenCV">
-                        <img src="public/NumPy.png" alt="NumPy">
-                        <img src="public/Pandas.png" alt="Pandas">
-                        <img src="public/Matplotlib.png" alt="Matplotlib">
+              <img src="public/TensorFlow.png" alt="TensorFlow" title="TensorFlow">
+              <img src="public/PyTorch.png" alt="PyTorch" title="PyTorch">
+              <img src="public/scikit-learn.png" alt="Scikit-learn" title="Scikit-learn">
+              <img src="public/OpenCV.png" alt="OpenCV" title="OpenCV">
+              <img src="public/NumPy.png" alt="NumPy" title="NumPy">
+              <img src="public/Pandas.png" alt="Pandas" title="Pandas">
+              <img src="public/Matplotlib.png" alt="Matplotlib" title="Matplotlib">
                     </div>
                 </div>
-                <div class="skill-category">
+          <div class="skill-category-card">
                     <h3>Databases</h3>
                     <div class="skill-icons">
-                        <img src="public/MongoDB.png" alt="MongoDB">
-                        <img src="public/PostgresSQL.png" alt="PostgreSQL">
-                        <img src="public/MySQL.png" alt="MySQL">
-                        <img src="public/Redis.png" alt="Redis">
-                        <img src="public/Firebase.png" alt="Firebase">
+              <img src="public/MongoDB.png" alt="MongoDB" title="MongoDB">
+              <img src="public/PostgresSQL.png" alt="PostgreSQL" title="PostgreSQL">
+              <img src="public/MySQL.png" alt="MySQL" title="MySQL">
+              <img src="public/Redis.png" alt="Redis" title="Redis">
+              <img src="public/Firebase.png" alt="Firebase" title="Firebase">
                     </div>
                 </div>
-                <div class="skill-category">
+          <div class="skill-category-card">
                     <h3>Tools & Platforms</h3>
                     <div class="skill-icons">
-                        <img src="public/Visual Studio Code (VS Code).png" alt="VS Code">
-                        <img src="public/Eclipse IDE.png" alt="Eclipse">
-                        <img src="public/Postman.png" alt="Postman">
-                        <img src="public/Linux.png" alt="Linux">
-                        <img src="public/Ubuntu.png" alt="Ubuntu">
-                        <img src="public/Swagger.png" alt="Swagger">
-                        <img src="public/NPM.png" alt="NPM">
+              <img src="public/Visual Studio Code (VS Code).png" alt="VS Code" title="VS Code">
+              <img src="public/Eclipse IDE.png" alt="Eclipse" title="Eclipse">
+              <img src="public/Postman.png" alt="Postman" title="Postman">
+              <img src="public/Linux.png" alt="Linux" title="Linux">
+              <img src="public/Ubuntu.png" alt="Ubuntu" title="Ubuntu">
+              <img src="public/Swagger.png" alt="Swagger" title="Swagger">
+              <img src="public/NPM.png" alt="NPM" title="NPM">
+            </div>
                     </div>
                 </div>
             </div>
         </section>
 
-        <!-- Experience Section -->
-        <section class="experience">
-            <h2>Experience</h2>
-            <div class="experience-item experience-flex">
-                <div class="experience-content">
-                    <h3>Undergraduate Research Assistant – SPRLab</h3>
-                    <div class="date">February 2025 – Present</div>
-                    <div class="location">University of Texas at Arlington | Arlington, Texas</div>
-                    <ul>
-                        <li>Contributing to interdisciplinary research at the Security and Privacy Research Lab (SPRLab), under Dr. Shirin Nilizadeh.</li>
-                        <li>Analyzing scam victim narratives on social media using AI/ML, NLP, and behavioral analysis to enhance online safety.</li>
-                        <li>Leveraging large-scale data pipelines, annotated datasets, and GPT-based thematic classification to uncover privacy trends.</li>
-                        <li>Exploring intersections of cybersecurity, psychology, and AI to understand digital manipulation and user vulnerability.</li>
-                    </ul>
-                </div>
-                <div class="experience-logo-container">
-                    <img src="public/SPRLab.jpg" alt="SPRLab Logo" class="experience-logo">
-                </div>
+    <!-- Experience Section with Timeline -->
+    <section class="experience-section" id="experience">
+      <div class="section-container">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="timeline">
+          <div class="timeline-line"></div>
+          
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <img src="public/AutomationSAnywhere.png" alt="Automation Anywhere">
             </div>
-            <div class="experience-item experience-flex">
-                <div class="experience-content">
-                    <h3>AI/ML Fellow – Break Through Tech</h3>
-                    <div class="date">May 2025 - Present</div>
-                    <div class="location">Cornell Tech | Virtual</div>
-                    <ul>
-                        <li>Selected as an AI/ML fellow through Break Through Tech's Virtual AI program at Cornell Tech.</li>
-                        <li>Engaged in advanced AI/ML training and research projects under the guidance of Cornell Tech faculty.</li>
-                        <li>Collaborated with peers on cutting-edge AI applications and machine learning solutions.</li>
-                        <li>Developed practical skills in implementing AI/ML solutions for real-world problems.</li>
-                    </ul>
+            <div class="timeline-content timeline-left">
+              <div class="experience-card">
+                <div class="experience-header">
+                  <h3>Machine Learning Fellow</h3>
+                  <div class="experience-meta">
+                    <span class="experience-company">Automation Anywhere</span>
+                    <span class="experience-location">• Remote</span>
+                  </div>
+                  <div class="experience-date">August 2025 – Present</div>
                 </div>
-                <div class="experience-logo-container">
-                    <img src="public/BreakThroughTech.png" alt="Break Through Tech Logo" class="experience-logo">
+                <div class="experience-description">
+                  <p>Collaborated with cross-functional teams to engineer and preprocess over 500 business documents and UI screenshots using Python, YOLO model, and Pandas, improving dataset quality and reducing errors by 15%. Trained and fine-tuned object detection models in PyTorch/ONNX for detecting business-critical elements. Deployed a scalable Flask/Streamlit inference application on AWS/GCP, reducing review latency by 25%.</p>
                 </div>
+              </div>
             </div>
-        </section>
+          </div>
 
-        <!-- Projects Section -->
-        <section class="projects">
-            <h2>Projects</h2>
-            <div class="project-item">
-                <h3>Parasite Detection System | <a href="https://github.com/AnmolAcharya/Chagas_Disease_Detection" target="_blank">GitHub</a></h3>
-                <div class="project-type">AI Full-Stack Application</div>
-                <div class="project-images">
-                    <img src="public/parasiteProject.png" alt="Parasite Detection UI" class="project-image focus-bottom">
-                    <img src="public/parasiteDetect.png" alt="Parasite Detection Results" class="project-image">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <img src="public/SPRLab.jpg" alt="SPRLab">
+            </div>
+            <div class="timeline-content timeline-right">
+              <div class="experience-card">
+                <div class="experience-header">
+                  <h3>Undergraduate Research Assistant</h3>
+                  <div class="experience-meta">
+                    <span class="experience-company">SPRLab</span>
+                    <span class="experience-location">• University of Texas at Arlington</span>
+                  </div>
+                  <div class="experience-date">February 2025 – August 2025</div>
                 </div>
-                <p>AI-powered web application for detecting Trypanosoma cruzi parasites in blood smear images with 92%+ accuracy using YOLOv8, featuring real-time inference and dynamic visualization.</p>
+                <div class="experience-description">
+                  <p>Contributing to interdisciplinary research at the Security and Privacy Research Lab (SPRLab), under Dr. Shirin Nilizadeh. Analyzing scam victim narratives on social media using AI/ML, NLP, and behavioral analysis to enhance online safety. Leveraging large-scale data pipelines, annotated datasets, and GPT-based thematic classification to uncover privacy trends. Exploring intersections of cybersecurity, psychology, and AI to understand digital manipulation and user vulnerability.</p>
+                </div>
+                </div>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <img src="public/BreakThroughTech.png" alt="Break Through Tech">
+            </div>
+            <div class="timeline-content timeline-left">
+              <div class="experience-card">
+                <div class="experience-header">
+                  <h3>AI/ML Fellow</h3>
+                  <div class="experience-meta">
+                    <span class="experience-company">Break Through Tech</span>
+                    <span class="experience-location">• Cornell Tech</span>
+                  </div>
+                  <div class="experience-date">May 2025 - Aug 2025</div>
+                </div>
+                <div class="experience-description">
+                  <p>Selected as an AI/ML fellow through Break Through Tech's Virtual AI program at Cornell Tech. Engaged in advanced AI/ML training and research projects under the guidance of Cornell Tech faculty. Collaborated with peers on cutting-edge AI applications and machine learning solutions. Developed practical skills in implementing AI/ML solutions for real-world problems.</p>
+                </div>
+              </div>
+            </div>
             </div>
 
-            <div class="project-item">
-                <h3>Cloud Resume Challenge | <a href="https://github.com/AnmolAcharya/cloudResumeChallenge" target="_blank">GitHub</a> | <a href="https://swe.anmolacharya.xyz/" target="_blank">Live Demo</a></h3>
-                <div class="project-type">Cloud-Native Full-Stack Application</div>
-                <div class="project-images">
-                    <img src="public/CloudResumearch.png" alt="Cloud Resume Architecture" class="project-image">
-                    <img src="public/AWS.png" alt="AWS Services" class="project-image">
+          <div class="timeline-item">
+            <div class="timeline-marker">
+              <img src="public/UTA.jpg" alt="UTA">
+            </div>
+            <div class="timeline-content timeline-right">
+              <div class="experience-card">
+                <div class="experience-header">
+                  <h3>Front Desk & IT Support</h3>
+                  <div class="experience-meta">
+                    <span class="experience-company">Dan Dipert Welcome Center</span>
+                    <span class="experience-location">• Arlington, TX</span>
+                  </div>
+                  <div class="experience-date">October 2024 – July 2025</div>
                 </div>
+                <div class="experience-description">
+                  <p>Resolved over 100 IT issues, boosting first-contact resolution and raising user satisfaction by 25%. Troubleshot and maintained Windows and Linux lab systems, performing tasks such as password resets, peripheral setup, and shell-based diagnostics, thereby reducing system downtime by 15%. Onboarded over 20 users with VPN/login setup and security best practices, cutting follow-up queries.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section" id="projects">
+      <div class="section-container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">A collection of my recent work and experiments</p>
+        
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-category">CLOUD & DEVOPS</div>
+            <div class="project-preview">
+              <img src="public/Serverless_Spoon_Proj.png" alt="Serverless Spoon">
+            </div>
+            <div class="project-info">
+              <h3>Serverless Spoon</h3>
+              <p>Customer-focused app that transforms grocery items into personalized meal recommendations using AWS CloudFront, Lambda, API Gateway, and DynamoDB. Achieved 40% latency improvement through Docker containerization and 80% faster deployment via CI/CD with GitHub Actions and Terraform.</p>
+              <div class="project-tech">
+                <span>AWS</span>
+                <span>React</span>
+                <span>Docker</span>
+                <span>Terraform</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">GitHub →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">NETWORK INFRASTRUCTURE</div>
+            <div class="project-preview">
+              <img src="public/AWS_VPC_Project.webp" alt="AWS VPC">
+            </div>
+            <div class="project-info">
+              <h3>AWS VPC Implementation</h3>
+              <p>Designed and deployed secure AWS VPC architecture across 3 Availability Zones, achieving 99.99% high availability. Implemented public/private subnets, IGW, and NAT Gateways with Linux-based EC2 bastion hosts. Automated infrastructure provisioning using CloudFormation, reducing setup time by 80%.</p>
+              <div class="project-tech">
+                <span>AWS VPC</span>
+                <span>CloudFormation</span>
+                <span>EC2</span>
+                <span>Linux</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">GitHub →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">AI & MACHINE LEARNING</div>
+            <div class="project-preview">
+              <img src="public/parasiteProject.png" alt="Parasite Detection">
+            </div>
+            <div class="project-info">
+              <h3>Parasite Detection System</h3>
+              <p>AI-powered web application for detecting Trypanosoma cruzi parasites in blood smear images with 92%+ accuracy using YOLOv8. Features real-time inference and dynamic visualization with FastAPI backend and modern web interface.</p>
+              <div class="project-tech">
+                <span>Python</span>
+                <span>YOLOv8</span>
+                <span>FastAPI</span>
+                <span>OpenCV</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/Chagas_Disease_Detection" target="_blank">GitHub →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">CLOUD-NATIVE</div>
+            <div class="project-preview">
+              <img src="public/CloudResumearch.png" alt="Cloud Resume">
+            </div>
+            <div class="project-info">
+              <h3>Cloud Resume Challenge</h3>
                 <p>Serverless resume website built with AWS services, featuring CI/CD automation, visitor counter, and global CDN distribution with enterprise-grade security.</p>
+              <div class="project-tech">
+                <span>AWS</span>
+                <span>Lambda</span>
+                <span>DynamoDB</span>
+                <span>S3</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/cloudResumeChallenge" target="_blank">GitHub →</a>
+                <!-- <a href="https://swe.anmolacharya.xyz/" target="_blank">Live Demo →</a> -->
+              </div>
+            </div>
             </div>
 
-            <div class="project-item">
-                <h3>The Word Search Game (TWSG) | <a href="https://github.com/AnmolAcharya/Full-Stack-Crossword-Game" target="_blank">GitHub</a> | </h3>
-                <div class="project-type">Full-Stack Java Game Development</div>
-                <div class="project-images">
-                    <img src="public/WordRushStart.png" alt="Word Rush Game Start" class="project-image">
-                    <img src="public/WordRush.png" alt="Word Rush Gameplay" class="project-image">
+          <div class="project-card">
+            <div class="project-category">FULL STACK GAME</div>
+            <div class="project-preview">
+              <img src="public/WordRushStart.png" alt="Word Search Game">
                 </div>
+            <div class="project-info">
+              <h3>The Word Search Game</h3>
                 <p>Multiplayer crossword game with real-time WebSocket synchronization, supporting concurrent players and achieving 95% unit test coverage.</p>
+              <div class="project-tech">
+                <span>Java</span>
+                <span>WebSocket</span>
+                <span>Full-Stack</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/Full-Stack-Crossword-Game" target="_blank">GitHub →</a>
+              </div>
+            </div>
             </div>
 
-            <div class="project-item">
-                <h3>Serverless Job Tracker (AWS) | <a href="https://github.com/AnmolAcharya/Job-Tracker-AWS-SERVERLESS-CRUD-APP-" target="_blank">GitHub</a></h3>
-                <div class="project-type">Cloud-Native Application</div>
-                <div class="project-images">
-                    <img src="public/JobTrackerarch.png" alt="Job Tracker Architecture" class="project-image">
-                    <img src="public/JobTrackerTheme.png" alt="Job Tracker UI" class="project-image">
+          <div class="project-card">
+            <div class="project-category">SERVERLESS APPLICATION</div>
+            <div class="project-preview">
+              <img src="public/JobTrackerarch.png" alt="Job Tracker">
                 </div>
+            <div class="project-info">
+              <h3>Serverless Job Tracker</h3>
                 <p>Fully serverless job tracking platform built with AWS services, handling 250+ weekly user sessions with OAuth2.0 authentication and 99.9% uptime.</p>
+              <div class="project-tech">
+                <span>AWS</span>
+                <span>Lambda</span>
+                <span>DynamoDB</span>
+                <span>OAuth2.0</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/Job-Tracker-AWS-SERVERLESS-CRUD-APP-" target="_blank">GitHub →</a>
+              </div>
+            </div>
             </div>
 
-            <div class="project-item">
-                <h3>TravelAI – Travel Companion | <a href="https://github.com/AnmolAcharya/Companion_TravelAI" target="_blank">GitHub</a></h3>
-                <div class="project-type">AI-Powered Travel Recommendation</div>
-                <div class="project-images">
-                    <img src="public/TravelAI.png" alt="TravelAI Main Interface" class="project-image">
-                    <img src="public/TravelAIplaces.png" alt="TravelAI Places" class="project-image">
-                </div>
-                <p>AI-integrated travel planner using ReactJS and GPT-based filtering to provide personalized destination recommendations based on user preferences.</p>
+          <div class="project-card">
+            <div class="project-category">AI TRAVEL PLANNER</div>
+            <div class="project-preview">
+              <img src="public/TravelAIplaces.png" alt="AI Travel Planner">
             </div>
-
-            <div class="project-item">
-                <h3>Sirixa - AI Voice Assistant | <a href="https://github.com/AnmolAcharya/amigofrontend?tab=readme-ov-file" target="_blank">GitHub</a></h3>
-                <div class="project-type">AI Voice Assistant</div>
-                <div class="project-images">
-                    <img src="public/SirixaStart.png" alt="Sirixa Start Screen" class="project-image focus-bottom">
-                    <img src="public/SirixaChat.png" alt="Sirixa Chat Interface" class="project-image">
-                </div>
-                <p>AI-powered voice assistant built with Gemini OpenAI API, providing intelligent conversational capabilities and task automation.</p>
-            </div>
-        </section>
-
-        <!-- Honors & Extracurricular Section -->
-        <section class="achievements">
-            <h2>Honors / Extracurricular</h2>
-            <div class="achievement-list">
-                <ul>
-                    <li>Upsilon Pi Epsilon (UPE): Inducted into the Honor Society of UPE, recognized as one of the top 1% of computer Science students for outstanding academic performance and professional development. (Fall 2024 - Present)</li>
-                    <li>ACM (Association for Computing Machinery) member: Engaged in Hackathons and tech-focused events</li>
-                    <li>Dean's List recipient (UTA College of Engineering): Academic year 2022, 2023, 2024</li>
-                </ul>
-                <div class="leetcode-section">
-                    <h3>Consistent Problem Solving: <a href="https://leetcode.com/u/AnmolAcharya/" target="_blank" rel="noopener noreferrer" class="leetcode-link">Leetcode Profile</a></h3>
-                    <h3>More Projects (Older Portfolio): <a href="https://portfolio-website-three-puce-56.vercel.app/" target="_blank" rel="noopener noreferrer" class="leetcode-link">LINK</a></h3>
+            <div class="project-info">
+              <h3>AI-Powered Travel Planner</h3>
+              <p>Full Stack AI web application to help plan trips seamlessly. Integrated Google Gemini API to extract travel details effectively. Used Google Firebase for storing user details and trip information with Google Authentication for secure user sign-in. Designed and developed a responsive and appealing frontend with React.js and React Router.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>Google Gemini</span>
+                <span>Firebase</span>
+                <span>JavaScript</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/AI_TriPlanner" target="_blank">GitHub →</a>
                 </div>
             </div>
-        </section>
+            </div>
 
-        <!-- <div class="visitor-counter">Visitors:</div> -->
+          <div class="project-card">
+            <div class="project-category">MERN STACK APPLICATION</div>
+            <div class="project-preview">
+              <img src="public/mernDONATION.png" alt="MERN Donation App">
+            </div>
+            <div class="project-info">
+              <h3>CampusCushion: Donation Platform</h3>
+              <p>Built a secure donation platform using MERN stack, enabling campus students to receive financial support. Engineered an optimized backend using Node.js, Express.js, and MongoDB, enabling seamless data storage while achieving 99.9% uptime through database indexing and efficient API routing. Created a responsive frontend with React.js utilizing React Router for multi-page navigation with optimized route handling and state management.</p>
+              <div class="project-tech">
+                <span>MongoDB</span>
+                <span>Express</span>
+                <span>React</span>
+                <span>Node.js</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/MERN_DonationAPP" target="_blank">GitHub →</a>
+                </div>
+            </div>
+          </div>
 
-    </div>
+          <div class="project-card">
+            <div class="project-category">AI VOICE ASSISTANT</div>
+            <div class="project-preview">
+              <img src="public/sirexa.png" alt="Sirixa AI Voice Assistant">
+            </div>
+            <div class="project-info">
+              <h3>Sirixa: AI Voice Assistant</h3>
+              <p>Developed an AI-powered voice assistant with 95% accuracy, enabling query responses, real-time updates, and executing commands using Google Gemini, OpenAI, and Weather APIs. Designed a responsive frontend with React.js and Material UI, optimizing user interaction with an intuitive interface. Engineered a FastAPI-based backend, processing 500+ voice commands per minute, optimizing request handling and ensuring third-party API integration with low-latency execution.</p>
+              <div class="project-tech">
+                <span>React</span>
+                <span>FastAPI</span>
+                <span>Google Gemini</span>
+                <span>OpenAI</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/amigofrontend?tab=readme-ov-file" target="_blank">GitHub →</a>
+                </div>
+            </div>
+          </div>
 
-    <script src ="./index.js"></script>
+          <div class="project-card">
+            <div class="project-category">SYSTEM PROGRAMMING</div>
+            <div class="project-preview">
+              <img src="public/shell_project.png" alt="Custom Unix Shell">
+            </div>
+            <div class="project-info">
+              <h3>Custom Unix Shell Implementation</h3>
+              <p>Developed a custom Unix shell with interactive and batch processing modes, simulating core functionalities of standard Unix shells like bash. Implemented command parsing and process management, resulting in improved execution efficiency by 60% through optimized process control. Built and tested using a make build system and custom test scripts within GitHub Codespace, ensuring 99% test coverage and robust performance.</p>
+              <div class="project-tech">
+                <span>C</span>
+                <span>Linux</span>
+                <span>Shell</span>
+                <span>System Programming</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/MySHELL" target="_blank">GitHub →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">WEB APPLICATION</div>
+            <div class="project-preview">
+              <img src="public/Degree_Plan_sorter.png" alt="UTA CSE Degree Plan Sorter">
+            </div>
+            <div class="project-info">
+              <h3>UTA CSE Degree Plan Sorter</h3>
+              <p>Developed an interactive web application using JavaScript, HTML, and CSS to assist UTA CSE students navigate their CSE degree requirements from freshmen to senior year. Simplified the complex structure of UTA CSE Degree flowchart by automating the visualization of course prerequisites. Ensured accurate and efficient degree planning, reducing manual effort by 50% and errors by 90% for UTA CSE students.</p>
+              <div class="project-tech">
+                <span>JavaScript</span>
+                <span>HTML5</span>
+                <span>CSS3</span>
+                <span>Web Development</span>
+              </div>
+              <div class="project-links">
+                <a href="https://github.com/AnmolAcharya/UTA_CSE_DEGREE_PLAN_SORTER" target="_blank">GitHub →</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-category">DATABASE MANAGEMENT</div>
+            <div class="project-preview">
+              <img src="public/sql.png" alt="UTA Doctoral Database">
+            </div>
+            <div class="project-info">
+              <h3>UTA Doctoral Database Management</h3>
+              <p>Developed and managed MySQL queries in the database server environment, increasing database reliability by 40% using XAMPP Server. Created backend functionality using PHP, improving data operation efficiency by 50% through integration with a responsive web interface. Enabled robust data management and categorization of doctoral students, improving administrative efficiency by 75% and streamlining operations.</p>
+              <div class="project-tech">
+                <span>MySQL</span>
+                <span>PHP</span>
+                <span>XAMPP</span>
+                <span>Database</span>
+              </div>
+              <div class="project-links">
+                <a href="#" target="_blank">GitHub →</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Honors & Contact Section -->
+    <section class="contact-section" id="contact">
+      <div class="section-container">
+        <h2 class="section-title">Honors & Contact</h2>
+        <div class="honors-grid">
+          <div class="honor-card">
+            <h3>Upsilon Pi Epsilon (UPE)</h3>
+            <p>Inducted into the Honor Society of UPE, recognized as one of the top 1% of Computer Science students for outstanding academic performance and professional development. (Fall 2024 - Present)</p>
+          </div>
+          <div class="honor-card">
+            <h3>ACM Member</h3>
+            <p>Engaged in Hackathons and tech-focused events through the Association for Computing Machinery.</p>
+          </div>
+          <div class="honor-card">
+            <h3>Dean's List</h3>
+            <p>UTA College of Engineering: Academic year 2022, 2023, 2024</p>
+          </div>
+        </div>
+        <div class="contact-info">
+          <p><strong>Email:</strong> <a href="mailto:anmolacharya94@gmail.com">anmolacharya94@gmail.com</a></p>
+          <p><strong>Phone:</strong> (720) 812-6205</p>
+          <div class="contact-links">
+            <a href="https://linkedin.com/in/anmolacharyauta" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a href="https://github.com/AnmolAcharya" target="_blank" rel="noopener noreferrer">GitHub</a>
+            <a href="https://leetcode.com/u/AnmolAcharya/" target="_blank" rel="noopener noreferrer">LeetCode</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./index.js"></script>
   </body>
 </html>
-
